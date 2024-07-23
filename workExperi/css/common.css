@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* fonts ---------------------------------------- */
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 900;
+	font-display: swap;
+	src: local('Pretendard Black'), url(../fonts/Pretendard-Black.woff2) format('woff2'), url(../fonts/Pretendard-Black.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 800;
+	font-display: swap;
+	src: local('Pretendard ExtraBold'), url(../fonts/Pretendard-ExtraBold.woff2) format('woff2'), url(../fonts/Pretendard-ExtraBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 700;
+	font-display: swap;
+	src: local('Pretendard Bold'), url(../fonts/Pretendard-Bold.woff2) format('woff2'), url(../fonts/Pretendard-Bold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	font-display: swap;
+	src: local('Pretendard SemiBold'), url(../fonts/Pretendard-SemiBold.woff2) format('woff2'), url(../fonts/Pretendard-SemiBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	font-display: swap;
+	src: local('Pretendard Medium'), url(../fonts/Pretendard-Medium.woff2) format('woff2'), url(../fonts/Pretendard-Medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	font-display: swap;
+	src: local('Pretendard Regular'), url(../fonts/Pretendard-Regular.woff2) format('woff2'), url(../fonts/Pretendard-Regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 300;
+	font-display: swap;
+	src: local('Pretendard Light'), url(../fonts/Pretendard-Light.woff2) format('woff2'), url(../fonts/Pretendard-Light.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 200;
+	font-display: swap;
+	src: local('Pretendard ExtraLight'), url(../fonts/Pretendard-ExtraLight.woff2) format('woff2'), url(../fonts/Pretendard-ExtraLight.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 100;
+	font-display: swap;
+	src: local('Pretendard Thin'), url(../fonts/Pretendard-Thin.woff2) format('woff2'), url(../fonts/Pretendard-Thin.woff) format('woff');
+}
+
+/* reset ---------------------------------------- */
+*{box-sizing:border-box;}
+html,body{width:100%;height:100%;padding:0;margin:0;font-family:'Pretendard','Apple SD Gothic Neo','Ubuntu', 'Nanum Square','Dotum','돋움',sans-serif, 'Noto Sans TC'; color:#1D1D1D;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes:none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+h1,h2,h3,h4,h5{padding:0;margin:0;}
+p{margin:0;padding:0;word-wrap:break-word;word-break:keep-all;}
+a, a:hover, a:focus{text-decoration:inherit; color:inherit;}
+fieldset,img{border:0 none}
+img{position:relative;}
+input,select,textarea,button{vertical-align:middle;font-family:inherit;}
+input{appearance:none; -webkit-appearance:none; -webkit-border-radius:0; font-family:inherit; font-size:inherit; line-height:inherit;}
+input::-ms-clear{display:none}
+input::-webkit-contacts-auto-fill-button {visibility:hidden;display:none !important;pointer-events:none;position:absolute;right:0}
+input[type=text]{color:#444; font-size:14px;}
+button{border:0 none;border-radius:0;background-color:transparent;cursor:pointer}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+caption{height: 0;padding: 0;font-size: 0;text-indent: -9999px;}
+table{border-spacing:0;border-collapse:collapse;}
+select{appearance:none; -webkit-appearance:none; font-family:inherit;}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder{color:#707070; font-size:inherit;}
+input:-moz-placeholder,
+textarea:-moz-placeholder{color:#3d1e1e; font-size:inherit;}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder{color:#707070; font-size:inherit;}
+
+.blind{position:absolute; left:-9999px; width:0.01px; height:0.01px; font-size:0.1px; line-height:0.01px; overflow:hidden;}
+
+.component-box{padding:50px 0;}
+.component-box:first-child{padding-top:0;}
+.component-tit{font-size:25px; margin-bottom:20px;}
+
+.component-box .tbl table td{text-align:center; vertical-align:top;}
+@media (max-width: 1024px) {
+	.component-box .tbl:not(.tbl-view) table th[colspan="4"],
+	.component-box .tbl:not(.tbl-view) table td[colspan="4"],
+	.component-box .tbl:not(.tbl-view) table th.w100{width:100%;}
+	.component-box .tbl:not(.tbl-view) table th.w100 ~ td{width:50%;}
+	.component-box .tbl:not(.tbl-view) table td{width:80%;}
+	.component-box .tbl:not(.tbl-view) table th{width:20%;}
+}
