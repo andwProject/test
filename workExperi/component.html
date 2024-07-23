@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalabel=no,maximum-scale=1,width=device-width">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>청년·기업 일경험 포털</title>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header class="header">
+        
+        <div class="header-top">
+            <div class="wrap">
+
+                <h1 class="logo"><a href="javascript:;"><img src="./images/common/logo.svg" alt=""></a></h1>
+                <ul class="type">
+                    <li class="on"><a href="javascript:;">청년</a></li>
+                    <li><a href="javascript:;">기업</a></li>
+                </ul>
+
+                <button class="btn-menu mob"><span class="blind">전체메뉴 열기</span></button><!-- 모바일용 메뉴 버튼 -->
+
+                <ul class="util">
+
+                    <!-- 비로그인시 -->
+                    <!-- <li class="join"><a href="javascript:;">회원가입</a></li>
+                    <li class="login"><a href="javascript:;">로그인</a></li> -->
+                    <!-- //비로그인시 -->
+
+                    <!-- 로그인시 -->
+                    <li class="mypage">
+                        <a href="javascript:;">마이페이지</a>
+                        <a href="javascript:;" class="txt">김청년 님 안녕하세요!</a>
+                    </li>
+                    <li class="logout"><a href="javascript:;">로그아웃</a></li>
+                    <!-- //로그인시 -->
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="gnb_bg"></div>
+            <div class="wrap">       
+
+                <!-- GNB -->
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">사업소개</a>
+                            <ul>
+                                <li><a href="javascript:;">플랫폼 소개</a></li>
+                                <li><a href="javascript:;">일경험 사업소개</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">일경험 프로그램</a>
+                            <ul>
+                                <li><a href="javascript:;">일경험 프로그램 검색</a></li>
+                                <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                                <li><a href="javascript:;">일경험 참여 매칭</a></li>
+                                <li><a href="javascript:;">운영기관</a></li>
+                                <li><a href="javascript:;">참여기업</a></li>
+                                <li><a href="javascript:;">진단관리</a></li>
+                                <li><a href="javascript:;">상담관리</a></li>
+                                <li><a href="javascript:;">만족도 조사</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">사후관리</a>
+                            <ul>
+                                <li><a href="javascript:;">수료증 진위확인</a></li>
+                                <li><a href="javascript:;">청년 커뮤니티</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">가상시뮬레이션</a>
+                            <ul>
+                                <li><a href="javascript:;">VR 직업체험</a></li>
+                                <li><a href="javascript:;">직업 동영상</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">고객센터</a>
+                            <ul>
+                                <li><a href="javascript:;">사이트 이용안내</a></li>
+                                <li><a href="javascript:;">공지사항</a></li>
+                                <li><a href="javascript:;">Q&A</a></li>
+                                <li><a href="javascript:;">FAQ</a></li>
+                                <li><a href="javascript:;">자료실</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- // GNB -->
+
+                <button class="btn-menu"><span class="blind">전체메뉴 열기</span></button>
+
+            </div>
+        </div>
+
+        <div class="mob-menu">
+
+            <!-- GNB -->
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="javascript:;" >사업소개</a>
+                        <ul>
+                            <li><a href="javascript:;">플랫폼 소개</a></li>
+                            <li><a href="javascript:;">일경험 사업소개</a></li>
+                        </ul>
+                    </li>
+                    <li class="is-expanded">
+                        <a href="javascript:;">일경험 프로그램</a>
+                        <ul>
+                            <li><a href="javascript:;">일경험 프로그램 검색</a></li>
+                            <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                            <li><a href="javascript:;">일경험 참여 매칭</a></li>
+                            <li><a href="javascript:;">운영기관</a></li>
+                            <li><a href="javascript:;">참여기업</a></li>
+                            <li class="depth"><!-- 2depth 하위메뉴 있을시 .depth 클래스 추가 -->
+                                <a href="javascript:;">진단관리</a>
+                                <ul>
+                                    <li><a href="javascript:;">진단관리1</a></li>
+                                    <li><a href="javascript:;">진단관리2</a></li>
+                                    <li><a href="javascript:;">진단관리3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">상담관리</a></li>
+                            <li><a href="javascript:;">만족도 조사</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">사후관리</a>
+                        <ul>
+                            <li><a href="javascript:;">수료증 진위확인</a></li>
+                            <li><a href="javascript:;">청년 커뮤니티</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">가상 시뮬레이션</a>
+                        <ul>
+                            <li><a href="javascript:;">VR 직업체험</a></li>
+                            <li><a href="javascript:;">직업 동영상</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">고객센터</a>
+                        <ul>
+                            <li><a href="javascript:;">사이트 이용안내</a></li>
+                            <li><a href="javascript:;">공지사항</a></li>
+                            <li><a href="javascript:;">Q&A</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                            <li><a href="javascript:;">자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- // GNB -->
+        </div>
+
+    </header>
+    <!--// HEADER -->
+
+    <!-- CONTAINER -->
+    <main class="container">
+       <div class="wrap">
+            
+        <div class="lnb">
+            <div class="wrap">
+
+                 <!-- LNB -->
+                <nav>
+                    <h2>일경험 프로그램</h2>
+                    
+                    <ul>
+                        <li><a href="javascript:;">일경험 프로그램 검색</a></li><!-- 뎁스 상관없이 현재 페이지에 li class="on" -->
+                        <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                        <li><a href="javascript:;">일경험 프로그램 참여 매칭</a></li>
+                        <li><a href="javascript:;">운영기관</a></li>
+                        <li><a href="javascript:;">참여기업</a></li>
+                        <li class="depth on is-expanded"><!-- 2depth 하위메뉴 있을시 .depth 클래스 추가 -->
+                            <a href="javascript:;">진단관리</a>
+                            <ul>
+                                <li class="on"><a href="javascript:;">일경험 준비도 진단</a></li>
+                                <li><a href="javascript:;">일경험 프로그램 참여유형 진단</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth">
+                            <a href="javascript:;">상담관리</a>
+                            <ul>
+                                <li><a href="javascript:;">고충 상담</a></li>
+                                <li><a href="javascript:;">기업 멘토 상담</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="javascript:;">만족도 조사</a></li>
+                    </ul>
+                    <a href="javascript:;" class="btn-lnb"><span class="blind">메뉴 닫기</span></a>
+                </nav>
+                <!-- // LNB -->
+                 
+            </div>
+        </div>
+
+            <!-- CONTENT -->
+            <div class="content">
+
+                <!-- TOP -->
+                <div class="content-top">
+                    <div class="location">
+                        <ul>
+                            <li class="home"><a href="javascript:;">홈</a></li>
+                            <li><a href="javascript:;">일경험 프로그램</a></li>
+                        </ul>
+                    </div>
+
+                    <h3>일경험 프로그램 검색</h3>
+                </div>
+                <!-- // TOP -->
+
+                <!-- BODY -->
+                <div class="content-body">
+
+                    <div class="component-box">
+
+                        <h3 class="component-tit">버튼</h3>
+
+                        <div class="tbl">
+                            <table>
+                                <colgroup>
+                                    <col style="width:155px;">
+                                    <col>
+                                    <col>
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th class="w100">LG(56)</th>
+                                        <td><button class="btn primary-line lg">버튼</button></td>
+                                        <td><button class="btn normal-line lg">버튼</button></td>
+                                        <td><button class="btn primary-color lg">버튼</button></td>
+                                        <td><button class="btn lg" disabled>버튼</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="w100">MD(48)</th>
+                                        <td><button class="btn primary-line md">버튼</button></td>
+                                        <td><button class="btn normal-line md">버튼</button></td>
+                                        <td><button class="btn primary-color md">버튼</button></td>
+                                        <td><button class="btn md" disabled>버튼</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="w100">SM(40)</th>
+                                        <td><button class="btn primary-line sm">버튼</button></td>
+                                        <td><button class="btn normal-line sm">버튼</button></td>
+                                        <td><button class="btn primary-color sm">버튼</button></td>
+                                        <td><button class="btn sm" disabled>버튼</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="w100">XS(36)</th>
+                                        <td><button class="btn normal-line xs">내부버튼</button></td>
+                                        <td><button class="btn normal-line xs">내부버튼</button></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="w100">ETC</th>
+                                        <td><span class="btn-hash">전체<button class="btn-close"><span class="blind">삭제</span></button></span></td>
+                                        <td></td>
+                                        <td><button class="btn-toggle">검색조건 열기</button></td>
+                                        <td><button class="btn-toggle is-expanded">검색조건 열기</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>  
+
+                    <div class="component-box">
+
+                        <h3 class="component-tit">버튼 정렬</h3>
+
+                        <div class="btn-group">
+                            <button class="btn primary-color lg fr">등록</button>
+                        </div>
+
+                        <div class="btn-group">
+                            <button class="btn normal-line lg fl">목록</button>
+                            <button class="btn normal-line lg fr">삭제</button>
+                            <button class="btn normal-line lg fr">수정</button>
+                        </div>
+
+                    </div>
+
+                    <div class="component-box">
+                        
+                        <h3 class="component-tit">페이지네이션</h3>
+
+                        <!-- PAGINATION : 현재 페이지에 li class="on" -->
+                        <div class="pagination">
+                            <a href="javascript:;" class="prev">이전</a>
+                            <ul>
+                                <li class="on"><a href="javascript:;">1</a></li>
+                                <li><a href="javascript:;">2</a></li>
+                                <li><a href="javascript:;">3</a></li>
+                                <li><a href="javascript:;">4</a></li>
+                                <li><a href="javascript:;">5</a></li>
+                                <li><a href="javascript:;">6</a></li>
+                                <li><a href="javascript:;">7</a></li>
+                                <li><a href="javascript:;">8</a></li>
+                                <li><a href="javascript:;">9</a></li>
+                                <li><a href="javascript:;">10</a></li>
+                            </ul>
+                            <a href="javascript:;" class="next">다음</a>
+                        </div>
+                        <!-- // PAGINATION -->
+                    </div>
+
+                    
+                    <div class="component-box">
+
+                        <h3 class="component-tit">FORM</h3>
+
+                        <div class="tbl">
+                            <table>
+                                <colgroup>
+                                    <col style="width:155px;">
+                                    <col>
+                                    <col style="width:155px;">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th colspan="4">INPUT</th>
+                                    </tr>
+                                    <tr>
+                                        <th>DEFAULT<i class="req">*</i></th>
+                                        <td>
+                                            <div class="ipt">
+                                                <input type="text" value="일경험 프로그램">
+                                                <button class="btn-del"><span class="blind">지우기</span></button>
+                                            </div>
+                                        </td>
+                                        <th>READONLY</th>
+                                        <td>
+                                            <div class="ipt">
+                                                <input type="text" value="일경험 프로그램" readonly>
+                                                <button class="btn-del"><span class="blind">지우기</span></button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>DISABLED</th>
+                                        <td>
+                                            <div class="ipt">
+                                                <input type="text" value="일경험 프로그램" disabled>
+                                                <button class="btn-del"><span class="blind">지우기</span></button>
+                                            </div>
+                                        </td>
+                                        <th>ERROR</th>
+                                        <td>
+                                            <div class="ipt err"><!-- 오류 시 err 클래스 추가 -->
+                                                <input type="text" value="일경험 프로그램">
+                                                <button class="btn-del"><span class="blind">지우기</span></button>
+                                            </div>
+                                            <p class="err-msg">오류 메세지</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="4">TEXTAREA</th>
+                                    </tr>
+                                    <tr>
+                                        <th>DEFAULT<i class="req">*</i></th>
+                                        <td>
+                                            <div class="txtarea"><textarea>입력 값입니다</textarea></div>
+                                        </td>
+                                        <th>READONLY</th>
+                                        <td>
+                                            <div class="txtarea"><textarea readonly>입력 값입니다</textarea></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>DISABLED</th>
+                                        <td>
+                                            <div class="txtarea"><textarea disabled>입력 값입니다</textarea></div>
+                                        </td>
+                                        <th>ERROR</th>
+                                        <td>
+                                            <div class="txtarea err"><textarea>입력 값입니다</textarea></div><!-- 오류 시 err 클래스 추가 -->
+                                            <p class="err-msg">오류 메세지</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="4">SELECT</th>
+                                    </tr>
+                                    <tr>
+                                        <th>DEFAULT<i class="req">*</i></th>
+                                        <td>
+                                            <div class="sel">
+                                                <select name="" id="">
+                                                    <option value="1">김청년님이 진행한 이력이 있는 프로젝트명 1</option>
+                                                    <option value="2">김청년님이 진행한 이력이 있는 프로젝트명 2</option>
+                                                    <option value="3">김청년님이 진행한 이력이 있는 프로젝트명 3</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <th>READONLY<i class="req">*</i></th>
+                                        <td>
+                                            <div class="sel">
+                                                <select name="" id="" readonly>
+                                                    <option value="1">김청년님이 진행한 이력이 있는 프로젝트명 1</option>
+                                                    <option value="2">김청년님이 진행한 이력이 있는 프로젝트명 2</option>
+                                                    <option value="3">김청년님이 진행한 이력이 있는 프로젝트명 3</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>DISABLED<i class="req">*</i></th>
+                                        <td>
+                                            <div class="sel">
+                                                <select name="" id="" disabled>
+                                                    <option value="1">김청년님이 진행한 이력이 있는 프로젝트명 1</option>
+                                                    <option value="2">김청년님이 진행한 이력이 있는 프로젝트명 2</option>
+                                                    <option value="3">김청년님이 진행한 이력이 있는 프로젝트명 3</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                        <th>ERROR<i class="req">*</i></th>
+                                        <td>
+                                            <div class="sel err"><!-- 오류 시 err 클래스 추가 -->
+                                                <select name="" id="">
+                                                    <option value="1">김청년님이 진행한 이력이 있는 프로젝트명 1</option>
+                                                    <option value="2">김청년님이 진행한 이력이 있는 프로젝트명 2</option>
+                                                    <option value="3">김청년님이 진행한 이력이 있는 프로젝트명 3</option>
+                                                </select>
+                                            </div>
+                                            <p class="err-msg">오류 메세지</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="4">CHECKBOX</th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">
+                                            <label class="chk"><input type="checkbox"><span>DEFAULT</span></label>
+                                            <label class="chk"><input type="checkbox" checked><span>CHECKED</span></label>
+                                            <label class="chk"><input type="checkbox" disabled><span>DISABLED</span></label>
+                                            <label class="chk"><input type="checkbox" checked disabled><span>DISABLED CHECKED</span></label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="4">RADIO BUTTON</th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4">
+                                            <label class="rdo"><input type="radio" name="radio1"><span>DEFAULT</span></label>
+                                            <label class="rdo"><input type="radio" name="radio1" checked><span>CHECKED</span></label>
+                                            <label class="rdo"><input type="radio" name="radio2" disabled><span>DISABLED</span></label>
+                                            <label class="rdo"><input type="radio" name="radio2" checked disabled><span>DISABLED CHECKED</span></label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="component-box">
+
+                        <h3 class="component-tit">입력</h3>
+
+                        <div class="tbl-view">
+                            <table>
+                                <colgroup>
+                                    <col style="width:155px;">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>label 필수<i class="req">*</i></th>
+                                        <td>
+                                            <div class="row">
+                                                <span>일경험 프로그램</span>
+                                                <a href="javascript:;" class="btn normal-line xs">내부 버튼</a>
+                                                <a href="javascript:;" class="btn normal-line xs" disabled>내부 버튼</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>label 필수<i class="req">*</i></th>
+                                        <td><a href="javascript:;" class="txt-link">text link</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>label</th>
+                                        <td>                                            
+                                            <div class="chk-group">
+                                                <label class="chk"><input type="checkbox" checked><span>전체</span></label>
+                                                <label class="chk"><input type="checkbox"><span>항목1</span></label>
+                                                <label class="chk"><input type="checkbox"><span>항목2</span></label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>label</th>
+                                        <td>                                            
+                                            <div class="rdo-group">
+                                                <label class="rdo"><input type="radio" checked><span>전체</span></label>
+                                                <label class="rdo"><input type="radio"><span>항목1</span></label>
+                                                <label class="rdo"><input type="radio"><span>항목2</span></label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>label</th>
+                                        <td>               
+                                            <div class="row">
+                                                <div class="calendar">
+                                                    <div class="ipt"><input type="text" id="from" name="from" placeholder="날짜입력"></div>
+                                                    <div class="form-txt">~</div>
+                                                    <div class="ipt"><input type="text" id="to" name="to" placeholder="날짜입력"></div>
+                                                </div>
+                                                <div class="rdo-group">
+                                                    <label class="rdo btn"><input type="radio" checked name="radioButton"><span>1개월</span></label>
+                                                    <label class="rdo btn"><input type="radio" name="radioButton"><span>2개월</span></label>
+                                                    <label class="rdo btn"><input type="radio" name="radioButton"><span>3개월</span></label>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>label</th>
+                                        <td>               
+                                            <div class="row">
+                                                <div class="sel">
+                                                    <select name="" id="">
+                                                        <option value="">전체</option>
+                                                        <option value="">전체2</option>
+                                                        <option value="">전체3</option>
+                                                    </select>
+                                                </div>
+                                                <div class="ipt"><input type="text"></div>
+                                                <button class="btn xs normal-line">버튼</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>label</th>
+                                        <td>               
+                                            <div class="row">
+                                                <div class="sel">
+                                                    <select name="" id="" readonly>
+                                                        <option value="">전체</option>
+                                                        <option value="">전체2</option>
+                                                        <option value="">전체3</option>
+                                                    </select>
+                                                </div>
+                                                <div class="sel">
+                                                    <select name="" id="" disabled>
+                                                        <option value="">전체</option>
+                                                        <option value="">전체2</option>
+                                                        <option value="">전체3</option>
+                                                    </select>
+                                                </div>
+                                                <div class="ipt"><input type="text" disabled value="비활성"></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="component-box">
+
+                        <h3 class="component-tit">조회영역</h3>
+
+                        <div class="search-area">
+                            
+                            <ul class="form-list">
+                                <li>
+                                    <label class="label">검색어</label>
+                                    <div class="cont">
+                                        <div class="row">
+                                            <div class="sel">
+                                                <select name="" id="">
+                                                    <option value="">제목+내용</option>
+                                                </select>
+                                            </div>
+                                            <div class="ipt">
+                                                <input type="text" placeholder="검색어를 입력해주세요">
+                                                <button class="btn-del"><span class="blind">지우기</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <label class="label">검색조건 1</label>
+                                    <div class="cont">
+                                        <div class="chk-group">
+                                            <label class="chk"><input type="checkbox" checked><span>전체</span></label>
+                                            <label class="chk"><input type="checkbox"><span>항목1</span></label>
+                                            <label class="chk"><input type="checkbox"><span>항목2</span></label>
+                                            <label class="chk"><input type="checkbox"><span>항목3</span></label>
+                                            <label class="chk"><input type="checkbox"><span>항목4</span></label>
+                                            <label class="chk"><input type="checkbox"><span>항목5</span></label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="label"><label>검색조건 2</label></div>
+                                    <div class="cont">
+                                        <div class="column">
+                                            <div class="select-box-top">
+                                                <button class="btn primary-line sm" data-show="jobCategory">직무선택</button><!-- data-show 속성에 대상 영역의 ID 추가 -->
+                                                <div class="selected-item">
+                                                    <span class="btn-hash">전체<button class="btn-close"><span class="blind">삭제</span></button></span>
+                                                </div>
+                                            </div>
+                                            <div class="select-box" id="jobCategory"><!-- is-expanded 클래스 추가 시 열린 상태 -->
+                                                <div class="chk-group">
+                                                    <label class="chk"><input type="checkbox" checked><span>전체</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>경영·사무</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>금융·회계</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>영업·해외영업</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>광고·마케팅</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>IT</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>연구·R&D</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>생산·제조</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>공공행정</span></label>
+                                                    <label class="chk"><input type="checkbox"><span>기타</span></label>
+                                                </div>
+                                                <button class="btn-close" data-show="jobCategory"><span class="blind">닫기</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="label"><label>검색조건 3</label></div>
+                                    <div class="cont">
+                                        <div class="row">
+                                            <div class="calendar">
+                                                <div class="ipt"><input type="text" id="from" name="from" placeholder="날짜입력"></div>
+                                                <div class="form-txt">~</div>
+                                                <div class="ipt"><input type="text" id="to" name="to" placeholder="날짜입력"></div>
+                                            </div>
+                                            <div class="rdo-group">
+                                                <label class="rdo btn"><input type="radio" checked name="radioButton"><span>1개월</span></label>
+                                                <label class="rdo btn"><input type="radio" name="radioButton"><span>2개월</span></label>
+                                                <label class="rdo btn"><input type="radio" name="radioButton"><span>3개월</span></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="label"><label>검색조건 4</label></div>
+                                    <div class="cont">
+                                        <div class="row">
+                                            <div class="rdo-group">
+                                                <label class="rdo"><input type="radio" name="radio3" checked><span>시작일</span></label>
+                                                <label class="rdo"><input type="radio" name="radio3"><span>마감일</span></label>
+                                            </div>
+                                            <div class="calendar">
+                                                <div class="ipt"><input type="text" id="from" name="from" placeholder="날짜입력"></div>
+                                                <div class="form-txt">~</div>
+                                                <div class="ipt"><input type="text" id="to" name="to" placeholder="날짜입력"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="label"><label>검색조건 5</label>
+                                    </div>
+                                    <div class="cont">
+                                        <div class="ipt">
+                                            <input type="text" placeholder="검색조건 입력에 대한 Hint Text">
+                                            <button class="btn-del"><span class="blind">지우기</span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="label"><label>검색조건 5</label></div>
+                                    <div class="cont">
+                                        <div class="ipt">
+                                            <input type="text" placeholder="검색조건 입력에 대한 Hint Text">
+                                            <button class="btn-del"><span class="blind">지우기</span></button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="btn-group">
+                                <button class="btn primary-color md ico-search fr">검색</button>
+                                <button class="btn primary-line md ico-reset fr">초기화</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="component-box">
+                        
+                        <h3 class="component-tit">태그</h3>
+
+                        <i class="label-txt bg0">마감</i>
+                        <i class="label-txt bg1">마감 D-46</i>
+                        <i class="label-txt bg2">마감 D-day</i>
+                        <br><br>
+                        <i class="label-txt bg3">인턴형</i>
+                        <i class="label-txt bg4">프로젝트형</i>
+                        <i class="label-txt bg5">ESG지원형</i>
+                        <i class="label-txt bg6">기업탐방형</i>
+
+                    </div>
+
+                    <div class="component-box">
+                        
+                        <h3 class="component-tit">목록 상단</h3>
+
+                        <div class="list-top">
+                            <div class="sort">
+                                <div class="sort-label">목록 표시 개수</div>
+                                <div class="sel">
+                                    <select name="" id="">
+                                        <option value="">10개</option>
+                                        <option value="">50개</option>
+                                        <option value="">100개</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <p class="info">총 <strong>840</strong>건</p>
+                        </div>
+
+                    </div>    
+
+                    <div class="component-box">
+                        
+                        <h3 class="component-tit">목록 - 카드형</h3>
+
+                        <ul class="card-list ">
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg3">인턴형</i>
+                                        <i class="label-txt bg0">마감 D-46</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠 제작&디자인 일경험 프로그램 콘텐츠 제작&디자인 일경험 프로그램</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm">신청하기</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg4">프로젝트형</i>
+                                        <i class="label-txt bg0">마감 D-46</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm">신청하기</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg4">프로젝트형</i>
+                                        <i class="label-txt bg0">마감 D-46</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm">신청하기</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg5">ESG지원형</i>
+                                        <i class="label-txt bg1">마감 D-day</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm">신청하기</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg4">프로젝트형</i>
+                                        <i class="label-txt bg0">마감 D-46</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm">신청하기</a></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card-top">
+                                        <i class="label-txt bg6">기업탐방형</i>
+                                        <i class="label-txt bg0">마감</i>
+                                    </div>
+                                    <div class="link"><a href="javascript:;"><strong>[주식회사 레드브릭스] 콘텐츠</strong></a></div>
+                                    <ul class="card-con">
+                                        <li><strong>직무</strong><span>경영·사무</span></li>
+                                        <li><strong>지역</strong><span>강원</span></li>
+                                        <li><strong>총 모집인원</strong><span>70명</span></li>
+                                        <li><strong>모집기</strong><span>24-06-01 ~ 24-10-04무</span></li>
+                                        <li><strong>참여기업</strong><span>모나용평 주식회사</span></li>
+                                    </ul>
+                                    <div class="card-bottom"><a href="javascript:;" class="btn primary-color sm" disabled>마감</a></div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="component-box">
+                        
+                        <h3 class="component-tit">목록 - 테이블형</h3>
+
+                        <div class="tbl-list">   
+                            <table>
+                                <caption>청년커뮤니티 표 - 번호, 참여기업명, 프로그램, 프로그램 유형, 주관기관, 운영기관, 직무, 작성자로 구성</caption><!-- 웹접근성 준수를 위해 캡션값 필수 -->
+                                <colgroup>
+                                    <col style="width:60px;">
+                                    <col style="width:150px;">
+                                    <col>
+                                    <col style="width:120px;">
+                                    <col style="width:120px;">
+                                    <col style="width:120px;">
+                                    <col style="width:120px;">
+                                    <col style="width:100px;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>번호</th>
+                                        <th>참여기업명</th>
+                                        <th>프로그램명</th>
+                                        <th>프로그램 유형</th>
+                                        <th>주관기관</th>
+                                        <th>운영기관</th>
+                                        <th>직무</th>
+                                        <th>작성자</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td aria-label="번호" class="m-hidden">1</td>
+                                        <td aria-label="참여기업명">서울강남고용센터</td>
+                                        <td aria-label="프로그램명" class="tal link"><a href="javascript:;"><strong>경영 실무 인턴형 일경험 프로그램</strong></a></td>
+                                        <td aria-label="프로그램 유형">인턴형</td>
+                                        <td aria-label="주관기관">고용노동부</td>
+                                        <td aria-label="운영기관">(주)하이테커</td>
+                                        <td aria-label="직무">경영·사무</td>
+                                        <td aria-label="작성자">김**</td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-label="번호" class="m-hidden">2</td>
+                                        <td aria-label="참여기업명">서울강남고용센터</td>
+                                        <td aria-label="프로그램명" class="tal link"><a href="javascript:;"><strong>금융 인턴형 일경험 프로그램</strong></a></td>
+                                        <td aria-label="프로그램 유형">인턴형</td>
+                                        <td aria-label="주관기관">고용노동부</td>
+                                        <td aria-label="운영기관">(주)하이테커</td>
+                                        <td aria-label="직무">금융·회계</td>
+                                        <td aria-label="작성자">박**</td>
+                                    </tr>
+                                    <tr>
+                                        <td aria-label="번호" class="m-hidden">3</td>
+                                        <td aria-label="참여기업명">서울강남고용센터</td>
+                                        <td aria-label="프로그램명" class="tal link"><a href="javascript:;"><strong>영업 인턴형 일경험 프로그램</strong></a></td>
+                                        <td aria-label="프로그램 유형">인턴형</td>
+                                        <td aria-label="주관기관">과학기술정보 통신부</td>
+                                        <td aria-label="운영기관">(주)하이테커</td>
+                                        <td aria-label="직무">영업·해외영업</td>
+                                        <td aria-label="작성자">김**</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="component-box">
+
+                        <h3 class="component-tit">상세</h3>
+
+                        <div class="tbl-view">
+                            <table>
+                                <colgroup>
+                                    <col style="width:155px;">
+                                    <col>
+                                    <col style="width:155px;">
+                                    <col>
+                                </colgroup>
+                                <tbody>
+                                    <tr>
+                                        <th>사업구분</th>
+                                        <td>일경험 프로그램</td>
+                                        <th>참여기업</th>
+                                        <td>서울강남고용센터</td>
+                                    </tr>
+                                    <tr>
+                                        <th>주관기관</th>
+                                        <td>고용노동부</td>
+                                        <th>운영기관</th>
+                                        <td>(주)하이테커</td>
+                                    </tr>
+                                    <tr>
+                                        <th>프로그램</th>
+                                        <td>경영 실무 인턴형 일경험 프로그램</td>
+                                        <th>직무</th>
+                                        <td>경영·사무</td>
+                                    </tr>
+                                    <tr>
+                                        <th>작성자</th>
+                                        <td colspan="3">김 **</td>
+                                    </tr>
+                                    <tr>
+                                        <th>제목</th>
+                                        <td colspan="3">경영 실무 인턴형 일경험 프로그램, 정말 만족합니다!</td>
+                                    </tr>
+                                    <tr>
+                                        <th>내용</th>
+                                        <td colspan="3">
+                                            안녕하세요. 저는 이번 미래내일 일경험 사업에 참여중인 서울의 한 취준생입니다.<br>
+                                            저는 이 프로그램 강력 추천합니다!!<br>
+                                            학교에서 이론만 공부하던 부분을 실무에서 어떻게 활용할 수 있는지 경험할 수 있어서 정말 좋았습니다.<br>
+                                            실무자분들이 세세하고 친절하게 알려주셔서 인턴 업무를 하는데도 많은 어려움을 느끼지 못했어요.<br>
+                                            또, 취업에 매우 도움되며, 면접 시에 해당 경험에 대한 질문도 많이 들어오더라구요.<br>
+                                            도움이 많이 되었기에 다른 분들께도 널리 알리고 싶은 마음입니다.<br>
+                                            많이 참여하세요~!!
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <!-- // BODY -->
+
+            </div>
+            <!-- // CONTENT -->
+
+       </div>
+    </main>
+    <!-- // CONTAINER -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="wrap">
+                <ul class="logo">
+                    <li><a href="javascript:;"><img src="./images/common/logo-moel.png" alt="고용노동부"></a></li>
+                    <li><a href="javascript:;"><img src="./images/common/logo-keis.png" alt="한국고용정보원"></a></li>
+                </ul>
+                <div class="family-site">
+                    <button href="javascript:;">패밀리 사이트</button>
+                </div>
+                <p class="address">(27740) 충청북도 음성군 맹동면 태정로 6 한국고용정보원</p>
+                <ul class="number">
+                    <li>
+                        <strong>홈페이지 전산 이용 문의 1577-7114</strong>
+                        <span>(유료, 한국고용정보원 고객상담센터 평일 09:00~18:00)</span>
+                    </li>
+                    <li>
+                        <strong>고용·노동 분야 제도 문의 국번없이 1350</strong>
+                        <span>(유료, 고용노동부 고객상담센터 평일 09:00~18:00)</span>
+                    </li>
+                </ul>
+                <a href="javascript:;" class="wa"><img src="./images/common/logo-wa.png" alt="웹접근성"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrap">
+                <ul class="link">
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="javascript:;">이메일무단수집거부</a></li>
+                    <li><a href="javascript:;">저작권보호정책</a></li>
+                    <li><a href="javascript:;">사이트맵</a></li>
+                </ul>
+                <p class="copyright">Copyright © 2024 고용노동부 한국고용정보원 all rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- // FOOTER -->
+
+</div>
+
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/jquery-ui.min.js"></script>
+<script src="./js/common.js"></script>
+<script>
+    </script>
+</body>
+</html>

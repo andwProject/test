@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <title>청년·기업 일경험 포털</title>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- HEADER -->
+    <header class="header">
+        
+        <div class="header-top">
+            <div class="wrap">
+
+                <h1 class="logo"><a href="javascript:;"><img src="./images/common/logo.svg" alt=""></a></h1>
+                <ul class="type">
+                    <li class="on"><a href="javascript:;">청년</a></li>
+                    <li><a href="javascript:;">기업</a></li>
+                </ul>
+
+                <button class="btn-menu mob"><span class="blind">전체메뉴 열기</span></button><!-- 모바일용 메뉴 버튼 -->
+
+                <ul class="util">
+
+                    <!-- 비로그인시 -->
+                    <!-- <li class="join"><a href="javascript:;">회원가입</a></li>
+                    <li class="login"><a href="javascript:;">로그인</a></li> -->
+                    <!-- //비로그인시 -->
+
+                    <!-- 로그인시 -->
+                    <li class="mypage">
+                        <a href="javascript:;">마이페이지</a>
+                        <a href="javascript:;" class="txt">김청년 님 안녕하세요!</a>
+                    </li>
+                    <li class="logout"><a href="javascript:;">로그아웃</a></li>
+                    <!-- //로그인시 -->
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="gnb_bg"></div>
+            <div class="wrap">       
+
+                <!-- GNB -->
+                <nav class="gnb">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">사업소개</a>
+                            <ul>
+                                <li><a href="javascript:;">플랫폼 소개</a></li>
+                                <li><a href="javascript:;">일경험 사업소개</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">일경험 프로그램</a>
+                            <ul>
+                                <li><a href="javascript:;">일경험 프로그램 검색</a></li>
+                                <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                                <li><a href="javascript:;">일경험 참여 매칭</a></li>
+                                <li><a href="javascript:;">운영기관</a></li>
+                                <li><a href="javascript:;">참여기업</a></li>
+                                <li><a href="javascript:;">진단관리</a></li>
+                                <li><a href="javascript:;">상담관리</a></li>
+                                <li><a href="javascript:;">만족도 조사</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">사후관리</a>
+                            <ul>
+                                <li><a href="javascript:;">수료증 진위확인</a></li>
+                                <li><a href="javascript:;">청년 커뮤니티</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">가상시뮬레이션</a>
+                            <ul>
+                                <li><a href="javascript:;">VR 직업체험</a></li>
+                                <li><a href="javascript:;">직업 동영상</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;">고객센터</a>
+                            <ul>
+                                <li><a href="javascript:;">사이트 이용안내</a></li>
+                                <li><a href="javascript:;">공지사항</a></li>
+                                <li><a href="javascript:;">Q&A</a></li>
+                                <li><a href="javascript:;">FAQ</a></li>
+                                <li><a href="javascript:;">자료실</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- // GNB -->
+
+                <button class="btn-menu"><span class="blind">전체메뉴 열기</span></button>
+
+            </div>
+        </div>
+
+        <div class="mob-menu">
+
+            <!-- GNB -->
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="javascript:;" >사업소개</a>
+                        <ul>
+                            <li><a href="javascript:;">플랫폼 소개</a></li>
+                            <li><a href="javascript:;">일경험 사업소개</a></li>
+                        </ul>
+                    </li>
+                    <li class="is-expanded">
+                        <a href="javascript:;">일경험 프로그램</a>
+                        <ul>
+                            <li><a href="javascript:;">일경험 프로그램 검색</a></li>
+                            <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                            <li><a href="javascript:;">일경험 참여 매칭</a></li>
+                            <li><a href="javascript:;">운영기관</a></li>
+                            <li><a href="javascript:;">참여기업</a></li>
+                            <li class="depth"><!-- 2depth 하위메뉴 있을시 .depth 클래스 추가 -->
+                                <a href="javascript:;">진단관리</a>
+                                <ul>
+                                    <li><a href="javascript:;">진단관리1</a></li>
+                                    <li><a href="javascript:;">진단관리2</a></li>
+                                    <li><a href="javascript:;">진단관리3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:;">상담관리</a></li>
+                            <li><a href="javascript:;">만족도 조사</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">사후관리</a>
+                        <ul>
+                            <li><a href="javascript:;">수료증 진위확인</a></li>
+                            <li><a href="javascript:;">청년 커뮤니티</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">가상 시뮬레이션</a>
+                        <ul>
+                            <li><a href="javascript:;">VR 직업체험</a></li>
+                            <li><a href="javascript:;">직업 동영상</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;">고객센터</a>
+                        <ul>
+                            <li><a href="javascript:;">사이트 이용안내</a></li>
+                            <li><a href="javascript:;">공지사항</a></li>
+                            <li><a href="javascript:;">Q&A</a></li>
+                            <li><a href="javascript:;">FAQ</a></li>
+                            <li><a href="javascript:;">자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- // GNB -->
+        </div>
+
+    </header>
+    <!--// HEADER -->
+
+    <!-- CONTAINER -->
+    <main class="container">
+       <div class="wrap">
+            
+        <div class="lnb">
+            <div class="wrap">
+                <!-- LNB : 뎁스 상관없이 현재 페이지에 li class="on" -->
+                <nav>
+                    <h2>일경험 프로그램</h2>
+                    <ul>
+                        <li class="on"><a href="javascript:;">일경험 프로그램 검색</a></li>
+                        <li><a href="javascript:;">일경험 프로그램 추진 일정</a></li>
+                        <li><a href="javascript:;">일경험 프로그램 참여 매칭</a></li>
+                        <li><a href="javascript:;">운영기관</a></li>
+                        <li><a href="javascript:;">참여기업</a></li>
+                        <li class="depth"><!-- 2depth 하위메뉴 있을시 .depth 클래스 추가 -->
+                            <a href="javascript:;">진단관리</a>
+                            <ul>
+                                <li><a href="javascript:;">일경험 준비도 진단</a></li>
+                                <li><a href="javascript:;">일경험 프로그램 참여유형 진단</a></li>
+                            </ul>
+                        </li>
+                        <li class="depth">
+                            <a href="javascript:;">상담관리</a>
+                            <ul>
+                                <li><a href="javascript:;">고충 상담</a></li>
+                                <li><a href="javascript:;">기업 멘토 상담</a></li>
+                            </ul>
+                        </li>
+                        <li class="on">
+                            <a href="javascript:;">만족도 조사</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:;" class="btn-lnb"><span class="blind">메뉴 닫기</span></a>
+                </nav>
+                <!-- // LNB -->
+            </div>
+        </div>
+
+            <!-- CONTENT -->
+            <div class="content">
+
+                <!-- TOP -->
+                <div class="content-top">
+                    <div class="location">
+                        <ul>
+                            <li class="home"><a href="javascript:;">홈</a></li>
+                            <li><a href="javascript:;">사후관리</a></li>
+                            <li><a href="javascript:;">청년 커뮤니티</a></li>
+                        </ul>
+                    </div>
+
+                    <h3>청년 커뮤니티</h3>
+                </div>
+                <!-- // TOP -->
+
+                <!-- BODY -->
+                <div class="content-body">
+
+                    <div class="tbl-view">
+                        <table>
+                            <colgroup>
+                                <col style="width:155px;">
+                                <col>
+                                <col style="width:155px;">
+                                <col>
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>사업구분</th>
+                                    <td>일경험 프로그램</td>
+                                    <th>참여기업</th>
+                                    <td>서울강남고용센터</td>
+                                </tr>
+                                <tr>
+                                    <th>주관기관</th>
+                                    <td>고용노동부</td>
+                                    <th>운영기관</th>
+                                    <td>(주)하이테커</td>
+                                </tr>
+                                <tr>
+                                    <th>프로그램</th>
+                                    <td>경영 실무 인턴형 일경험 프로그램</td>
+                                    <th>직무</th>
+                                    <td>경영·사무</td>
+                                </tr>
+                                <tr>
+                                    <th>작성자</th>
+                                    <td colspan="3">김 **</td>
+                                </tr>
+                                <tr>
+                                    <th>제목</th>
+                                    <td colspan="3">경영 실무 인턴형 일경험 프로그램, 정말 만족합니다!</td>
+                                </tr>
+                                <tr>
+                                    <th>내용</th>
+                                    <td colspan="3">
+                                        안녕하세요. 저는 이번 미래내일 일경험 사업에 참여중인 서울의 한 취준생입니다.<br>
+                                        저는 이 프로그램 강력 추천합니다!!<br>
+                                        학교에서 이론만 공부하던 부분을 실무에서 어떻게 활용할 수 있는지 경험할 수 있어서 정말 좋았습니다.<br>
+                                        실무자분들이 세세하고 친절하게 알려주셔서 인턴 업무를 하는데도 많은 어려움을 느끼지 못했어요.<br>
+                                        또, 취업에 매우 도움되며, 면접 시에 해당 경험에 대한 질문도 많이 들어오더라구요.<br>
+                                        도움이 많이 되었기에 다른 분들께도 널리 알리고 싶은 마음입니다.<br>
+                                        많이 참여하세요~!!
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="btn-group">
+                        <button class="btn normal-line lg fl">목록</button>
+                        <button class="btn normal-line lg fr">수정</button>
+                        <button class="btn normal-line lg fr">삭제</button>
+                    </div>
+
+                </div>
+                <!-- // BODY -->
+
+            </div>
+            <!-- // CONTENT -->
+
+       </div>
+    </main>
+    <!-- // CONTAINER -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="wrap">
+                <ul class="logo">
+                    <li><a href="javascript:;"><img src="./images/common/logo-moel.png" alt="고용노동부"></a></li>
+                    <li><a href="javascript:;"><img src="./images/common/logo-keis.png" alt="한국고용정보원"></a></li>
+                </ul>
+                <div class="family-site">
+                    <button href="javascript:;">패밀리 사이트</button>
+                </div>
+                <p class="address">(27740) 충청북도 음성군 맹동면 태정로 6 한국고용정보원</p>
+                <ul class="number">
+                    <li>
+                        <strong>홈페이지 전산 이용 문의 1577-7114</strong>
+                        <span>(유료, 한국고용정보원 고객상담센터 평일 09:00~18:00)</span>
+                    </li>
+                    <li>
+                        <strong>고용·노동 분야 제도 문의 국번없이 1350</strong>
+                        <span>(유료, 고용노동부 고객상담센터 평일 09:00~18:00)</span>
+                    </li>
+                </ul>
+                <a href="javascript:;" class="wa"><img src="./images/common/logo-wa.png" alt="웹접근성"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrap">
+                <ul class="link">
+                    <li><a href="javascript:;">이용약관</a></li>
+                    <li><a href="javascript:;"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="javascript:;">이메일무단수집거부</a></li>
+                    <li><a href="javascript:;">저작권보호정책</a></li>
+                    <li><a href="javascript:;">사이트맵</a></li>
+                </ul>
+                <p class="copyright">Copyright © 2024 고용노동부 한국고용정보원 all rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- // FOOTER -->
+
+</div>
+
+<script src="./js/jquery-1.12.4.min.js"></script>
+<script src="./js/swiper-bundle.min.js"></script>
+<script src="./js/common.js"></script>
+</body>
+</html>
